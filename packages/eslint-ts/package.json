@@ -1,0 +1,19 @@
+{
+  "name": "@ncuhome/eslint-config-ts",
+  "version": "0.0.1",
+  "keywords": [
+    "eslint-config"
+  ],
+  "homepage": "https://github.com/ncuhome/lintject#readme",
+  "author": "NCUHOME (https://github.com/ncuhome)",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@ncuhome/lintject",
+  "version": "0.0.1",
+  "private": true,
+  "keywords": [
+  ],
+  "homepage": "https://github.com/ncuhome/lintject#readme",
+  "author": "NCUHOME (https://github.com/ncuhome)",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "ci:publish": "changeset publish",
+    "ci:version": "changeset version"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.17.0"
+  }
+}

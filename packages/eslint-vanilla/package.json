@@ -1,0 +1,17 @@
+{
+  "name": "@ncuhome/eslint-config-vanilla",
+  "version": "0.0.1",
+  "keywords": [
+    "eslint-config"
+  ],
+  "homepage": "https://github.com/ncuhome/lintject#readme",
+  "author": "NCUHOME (https://github.com/ncuhome)",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  }
+}
