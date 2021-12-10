@@ -2,5 +2,23 @@
   "name": "lintject",
   "version": "0.0.1",
   "homepage": "https://github.com/ncuhome/lintject#readme",
-  "author": "NCUHOME (https://github.com/ncuhome)"
+  "author": "NCUHOME (https://github.com/ncuhome)",
+  "bin": {
+    "lintject": "./cli.js"
+  }, 
+  "scripts": {
+    "start": "ncc build ./src/index.ts -w -o dist/",
+    "prebuild": "rimraf ./dist/",
+    "build": "ncc build ./src/index.ts -o ./dist/ --minify --no-cache --no-source-map-register"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "@types/yargs": "^17.0.7",
+    "@vercel/ncc": "^0.32.0",
+    "enquirer": "^2.3.6",
+    "gdl": "^1.3.2",
+    "ignore": "^5.1.9",
+    "typescript": "^4.5.2",
+    "yargs": "^17.2.1"
+  }
 }
